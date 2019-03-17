@@ -104,6 +104,8 @@ export default class App extends React.Component {
         filterUser = userData.filtered('age > 30');
         console.log("pilih atas 30");
         break;
+      default:
+        filterUser = userData;
 
     }
 
