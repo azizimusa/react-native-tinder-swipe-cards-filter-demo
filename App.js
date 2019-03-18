@@ -3,8 +3,8 @@ import React, {Component} from 'react';
 import {StyleSheet, View, Alert} from 'react-native';
 import { Container, Content, Header, Text, Left, Body, Right, Title, Form, Item, Picker } from 'native-base';
 import SwipeCards from 'react-native-swipe-cards';
-import {Icon} from "react-native-vector-icons";
 const Realm = require('realm');
+import Icon from 'react-native-vector-icons';
 let realm;
 let tempData;
 
